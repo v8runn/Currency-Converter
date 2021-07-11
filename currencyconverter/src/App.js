@@ -71,7 +71,7 @@ class App extends Component
         <input type="text" onChange= {this.changeFrom} name="from" placeholder="Enter source currency"></input>
         </div>
         <div>
-        <input type="text" onChange= {this.changeTo} name="to" placeholder="To"></input>
+        <input type="text" onChange= {this.changeTo} name="to" placeholder="Convert to"></input>
         </div>
         <div>
         <input type="number" onChange= {this.changeSource} name="source" placeholder="Amount"></input>

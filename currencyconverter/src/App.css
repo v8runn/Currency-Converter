@@ -1,14 +1,14 @@
 body 
 {
     background-image: url("currency.jpeg");
-    font-family: 'Lato', sans-serif;
+    font-family: 'Karla', sans-serif;
     color: whitesmoke;
 
 }
 
 .container-1 
 {
-  background-color: #db7b86;
+  background-color: #ff99a5;
   border: transparent;
   height: 520px;
   width: 400px;
@@ -21,6 +21,11 @@ body
   margin-top: 200px;
   position: static;
   overflow: hidden;
+}
+
+h1
+{
+  padding: 50px;
 }
 
 .flex-box-container-1
@@ -41,6 +46,30 @@ body
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+input
+{
+  font-size: 20px;
+}
+
+.btn
+{
+  border: 2px solid white;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.btn:hover
+{
+  color: white;
+  background-color: #ff99a5;
+  
 }
 
 
