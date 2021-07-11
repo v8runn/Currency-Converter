@@ -64,18 +64,26 @@ class App extends Component
   {
     return(
       <div>
-        <div className="container-1"></div>
+        <div className="container-1">
         <h1>Currency Converter</h1>
-        <div className="flex-box-container-1"></div>
+        <div className="flex-box-container-1">
         <div>
         <input type="text" onChange= {this.changeFrom} name="from" placeholder="Enter source currency"></input>
         </div>
         <div>
         <input type="text" onChange= {this.changeTo} name="to" placeholder="To"></input>
         </div>
-        <input type="number" onChange= {this.changeSource} name="source" placeholder="Amount in source currency"></input>
-        <button type="button" onClick={this.handleChange}>Convert</button>
+        <div>
+        <input type="number" onChange= {this.changeSource} name="source" placeholder="Amount"></input>
+        </div>
+        </div>
+        <div>
+        <button className="btn btn-light" type="button" onClick={this.handleChange}>Convert</button>
+        </div>
+        <div>
         <p>{this.state.source} {this.state.from} is equivalent to {this.state.rate*this.state.source} {this.state.to}</p>
+      </div>
+      </div>
       </div>
     )
   }
